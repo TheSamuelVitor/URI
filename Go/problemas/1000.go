@@ -1,8 +1,8 @@
-package main
+package problemas
 
 import "fmt"
 
 
-func main()  {
+func MostraMensagem() {
 	fmt.Print("Hello World!")
 }
