@@ -2,6 +2,7 @@ package problemas
 
 import "fmt"
 
+// Recebe dois valores e mostra a multiplicação entre eles
 func CalculaProduto() {
 	var primeiroNumero, segundoNumero int
 
