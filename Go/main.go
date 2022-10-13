@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	problemas.Esfera()
+	problemas.OMaior()
 }
