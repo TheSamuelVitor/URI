@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	problemas.ConversaoDeTempo()
+	problemas.NotasEMoedas()
 }
