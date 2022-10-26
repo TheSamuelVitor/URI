@@ -1,13 +1,13 @@
 package problemas
 
-import "fmt"
+// import "fmt"
 
 // Lê dois valores e retonar a soma entre eles
-func SomaValores() {
-	var a,b int
+func SomaValores(a, b int) int {
+	// var a,b int
 
-	fmt.Scanln(&a)
-	fmt.Scanln(&b)
+	// fmt.Scanln(&a)
+	// fmt.Scanln(&b)
 
-	fmt.Println("X =", a+b)
+	return a + b
 }
