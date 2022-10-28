@@ -1,11 +1,7 @@
-package main
-
-import (
-	"fmt"
-)
+package problemas
 
 func Intervalo(valor float64) string {
-	if valor >= 0 && valor <= 25 {
+	if valor > 0 && valor <= 25 {
 		return "Intervalo [0,25]"
 	} else if valor > 25 && valor <= 50 {
 		return "Intervalo (25,50]"
@@ -16,14 +12,4 @@ func Intervalo(valor float64) string {
 	}
 
 	return "Fora de intervalo"
-}
-
-func main() {
-
-	var valorA float64
-
-	fmt.Scanln(&valorA)
-
-	fmt.Println(Intervalo(valorA))
-
 }
