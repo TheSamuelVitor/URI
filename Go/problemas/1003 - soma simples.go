@@ -1,14 +1,15 @@
 package problemas
 
-import "fmt"
+// import "fmt"
 
 // Essa funcao tambem retorna o falor de dois valores recebidos. 
 // A diferença é apenas na hora de mostrar o resultado
-func SomaValores2() {
-	var a, b int
+func SomaValores2(a,b int) int {
+	// var a, b int
 
-	fmt.Scanln(&a)
-	fmt.Scanln(&b)
+	// fmt.Scanln(&a)
+	// fmt.Scanln(&b)
 
-	fmt.Println("SOMA =", a+b)
+	// fmt.Println("SOMA =", a+b)
+	return a+b
 }

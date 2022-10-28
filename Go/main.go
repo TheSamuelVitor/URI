@@ -1,7 +1,7 @@
 package main
 
 import (
-	"problemasURI/problemas"
+	"fmt"
 )
 
 func main() {
