@@ -1,5 +1,5 @@
 # URI / Beecrowd
-- [Beecrowd](https://www.beecrowd.com.br/judge/en/login) para treino de logica de programação com diversos problemas.
+- Repositorio do [Beecrowd](https://www.beecrowd.com.br/judge/en/login) destinado para treino de logica de programação e ajudar outros programadores que tem dificuldades.
 - Criei este repositório para compartilhar minhas soluções e ajudar outros que precisem de ajuda.
 
 ## Como contribuir 
