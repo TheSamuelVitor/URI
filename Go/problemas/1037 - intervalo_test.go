@@ -1,6 +1,9 @@
 package problemas
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestIntervalo(t *testing.T) {
 
@@ -55,5 +58,7 @@ func TestIntervalo(t *testing.T) {
 		{ name: "test 75 a 100", got: Intervalo(25.00), want: "Intervalo [0,25]"},
 		{ name: "test fora de intervalo", got: Intervalo(25.00), want: "Fora de intervalo"},
 	}
+
+	fmt.Println(intervaloTests)
 
 }

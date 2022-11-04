@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"problemasURI/problemas"
 )
 
 func main() {
-	problemas.NotasEMoedas()
+	problemas.CalculaArea()
 }
