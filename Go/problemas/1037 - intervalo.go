@@ -9,7 +9,7 @@ func Intervalo(valor float64) string {
 		return "Intervalo (50,75]"
 	} else if valor > 75 && valor <= 100 {
 		return "Intervalo (75,100]"
+	} else {
+		return "Fora de intervalo"
 	}
-
-	return "Fora de intervalo"
 }
