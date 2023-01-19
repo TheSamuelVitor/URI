@@ -1,6 +1,9 @@
 package problemas
 
-import "testing"
+import (
+	"problemasURI/assert"
+	"testing"
+)
 
 func TestIntervalo(t *testing.T) {
 
@@ -18,11 +21,7 @@ func TestIntervalo(t *testing.T) {
 
 	for _, test := range intervaloTests {
 		t.Run(test.name, func(t *testing.T){
-			got := test.got
-			want := test.want
-			if got != want {
-				t.Errorf("\ngot %v\nwant %v", got, want)
-			}
+			assert.Equal(t, test.got, test.want)
 		})
 	}
 
