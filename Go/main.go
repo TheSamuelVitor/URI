@@ -1,8 +1,13 @@
 package main
 
-import "problemasURI/problemas"
+import (
+	"fmt"
+	"problemasURI/problemas"
+)
 
 func main() {
-	var n1, n2, n3, n4 float64
-	problemas.Media3(n1, n2, n3, n4)
+	var coordenadaX, coordenadaY float64
+	fmt.Scanf("%v %v\n", &coordenadaX, &coordenadaY)
+	resultado := problemas.CoordenadasDeUmPonto(coordenadaX, coordenadaY)
+	fmt.Printf("%s\n", resultado)
 }
