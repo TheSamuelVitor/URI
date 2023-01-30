@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	var coordenadaX, coordenadaY float64
-	fmt.Scanf("%v %v\n", &coordenadaX, &coordenadaY)
-	resultado := problemas.CoordenadasDeUmPonto(coordenadaX, coordenadaY)
+	var n1, n2, n3 int
+	fmt.Scanf("%v %v %v\n", &n1, &n2, &n3)
+	resultado := problemas.SortSimples(n1, n2, n3)
 	fmt.Printf("%s\n", resultado)
 }
