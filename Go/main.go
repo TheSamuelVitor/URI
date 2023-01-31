@@ -2,12 +2,20 @@ package main
 
 import (
 	"fmt"
-	"problemasURI/problemas"
 )
 
 func main() {
-	var n1, n2, n3 int
-	fmt.Scanf("%v %v %v\n", &n1, &n2, &n3)
-	resultado := problemas.SortSimples(n1, n2, n3)
-	fmt.Printf("%s\n", resultado)
+	var valorA, valorB int
+	fmt.Scanf("%d %d\n", &valorA, &valorB)
+	fmt.Print(Multiplos(valorA, valorB))
+}
+
+func Multiplos(valorA, valorB int) string {
+
+	if valorA%valorB == 0 || valorB%valorA == 0 {
+		return "Sao Multiplos\n"
+	} else {
+		return "Nao sao Multiplos\n"
+	}
+
 }
