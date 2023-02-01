@@ -1,13 +1,14 @@
-package problemas
+package test
 
 import (
+	"problemasURI/problemas"
 	"problemasURI/assert"
 	"testing"
 )
 
 func TestBasico(t *testing.T) {
 	t.Run("testando soma de dois valores", func(t *testing.T) {
-		got := SomaValores(5, 5)
+		got := problemas.SomaValores(5, 5)
 		want := 10
 		assert.Equal(t, got, want)
 	})
