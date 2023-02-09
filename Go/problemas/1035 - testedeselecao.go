@@ -1,17 +1,11 @@
 package problemas
 
-import "fmt"
-
-func TesteDeSelecao() {
-
-	var valorA, valorB, valorC, valorD int64
-
-	fmt.Scanf("%d %d %d %d\n", &valorA, &valorB, &valorC, &valorD)
+func TesteDeSelecao(valorA, valorB, valorC, valorD int64) string {
 
 	if (valorB > valorC) && (valorD > valorA) && ((valorC + valorD) > (valorA + valorB)) && (valorA%2 == 0) && (valorD > 0) && (valorC > 0) {
-		fmt.Println("Valores aceitos")
+		return "Valores aceitos"
 	} else {
-		fmt.Println("Valores nao aceitos")
+		return "Valores nao aceitos"
 	}
 
 }
