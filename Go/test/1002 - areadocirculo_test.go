@@ -1,8 +1,8 @@
 package test
 
 import (
-	"problemasURI/problemas"
 	"problemasURI/assert"
+	"problemasURI/problemas"
 	"testing"
 )
 

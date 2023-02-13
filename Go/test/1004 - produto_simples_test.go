@@ -8,12 +8,12 @@ import (
 
 func TestProduto(t *testing.T) {
 
-	produtoTests := []struct{
+	produtoTests := []struct {
 		name string
-		got string
+		got  string
 		want string
 	}{
-		{name: "Teste Funcional 1", got: problemas.CalculaProduto(5,7), want: "PROD = 35"},
+		{name: "Teste Funcional 1", got: problemas.CalculaProduto(5, 7), want: "PROD = 35"},
 	}
 
 	for _, test := range produtoTests {

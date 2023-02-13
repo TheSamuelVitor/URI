@@ -11,7 +11,7 @@ func CalculoMedia2() {
 	fmt.Scanln(&notaB)
 	fmt.Scanln(&notaC)
 
-	media := ((notaA*2) + (notaB*3) + (notaC*5) )/10
+	media := ((notaA * 2) + (notaB * 3) + (notaC * 5)) / 10
 
 	fmt.Printf("MEDIA = %.1f\n", media)
 }
