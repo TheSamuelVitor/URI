@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	var horaInicial, minutoInicio, minutoFinal, horaFinal int
-	fmt.Scanf("%d %d %d %d\n", &horaInicial, &minutoInicio, &horaFinal, &minutoFinal)
-	fmt.Println(problemas.TempodeJogoComMinutos(horaInicial, minutoInicio, horaFinal, minutoFinal))
+	var salario float64
+	fmt.Scanf("%f", &salario)
+	problemas.AumentoDeSalario(salario)
 }
