@@ -14,8 +14,8 @@ func TestAnimal(t *testing.T) {
 	}{
 		{name: "Teste Homem", got: problemas.Animal("vertebrado", "mamifero", "onivoro"), want: "homem"},
 		{name: "Teste Aguia", got: problemas.Animal("vertebrado", "ave", "carnivoro"), want: "aguia"},
-		{name: "Teste Pulga", got: problemas.Animal("invertebrado", "inseto", "hematofogo"), want: "pulga"},
-		{name: "Teste Sanguessuga", got: problemas.Animal("invertebrado", "anelideo", "hematofogo"), want: "sanguessuga"},
+		{name: "Teste Pulga", got: problemas.Animal("invertebrado", "inseto", "hematofago"), want: "pulga"},
+		{name: "Teste Sanguessuga", got: problemas.Animal("invertebrado", "anelideo", "hematofago"), want: "sanguessuga"},
 	}
 
 	for _, test := range lancheTests {

@@ -25,7 +25,7 @@ func Animal(a, b, c string) string {
 	if a == "invertebrado" {
 
 		if b == "inseto" {
-			if c == "hematofogo" {
+			if c == "hematofago" {
 				return "pulga"
 			}
 			if c == "herbivoro" {
@@ -34,7 +34,7 @@ func Animal(a, b, c string) string {
 		}
 
 		if b == "anelideo" {
-			if c == "hematofogo" {
+			if c == "hematofago" {
 				return "sanguessuga"
 			}
 			if c == "onivoro" {
