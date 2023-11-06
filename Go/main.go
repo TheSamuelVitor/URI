@@ -6,7 +6,5 @@ import (
 )
 
 func main() {
-	var numero int64
-	fmt.Scanf("%d", &numero)
-	fmt.Println(problemas.Mes(numero))
+	fmt.Println(problemas.NumerosPares())
 }
